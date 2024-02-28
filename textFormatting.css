@@ -1,0 +1,48 @@
+/* css styles for formatting texts */
+#navbar li{
+    /* text-align: right; */
+    display: inline;
+}
+li>a{
+    color: blueviolet;
+}
+li>a:hover{
+    color: aqua;
+}
+nav li a.active:active{
+    color: red;
+}
+
+li{
+    /* to set list style  */
+    list-style-type: none;
+    text-decoration: underline;
+    padding: 2px;
+}
+.paragraph{
+    /* the letter spacing property is used to set the space between charachters*/
+    letter-spacing: 2px;
+    /* property to set colors of the text */
+    color: brown;
+    /* the line-height property is used to set the space between lines */
+    line-height: 16px;
+    /* property is used to change the case of text, uppercase or lowercase */
+    text-transform: capitalize;
+    font-style: italic;
+}
+.post{
+    /* property is used to add shadow to the text. 
+     You can specify the horizontal size, vertical size and shadow color for the text.  */
+    text-shadow: 1px 1px gray;
+    /* property to align items-horizontaly */
+    text-align: center;
+    font-family:sans-serif;
+
+}
+nav img{
+    height: 80px;
+    width: 80px;
+    object-fit: cover;
+    margin: 0;
+    padding: 0;
+}
